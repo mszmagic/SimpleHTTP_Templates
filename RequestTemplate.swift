@@ -8,6 +8,11 @@
 import Foundation
 import Alamofire
 
+struct HeaderEntry {
+    var name: String
+    var value: String
+}
+
 struct RequestTemplate_Category {
     var categoryID = UUID().uuidString
     var categoryName: String
